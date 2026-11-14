@@ -1,0 +1,274 @@
+
+\documentclass[a4paper,10pt]{article}
+
+% ---------- PACKAGES ----------
+\usepackage[margin=0.48in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ---------- PAGE SETTINGS ----------
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\urlstyle{same}
+
+% ---------- SECTION FORMATTING ----------
+\titleformat{\section}
+{\large\bfseries}
+{}{0em}{}[\titlerule]
+
+% Section spacing
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+
+% ---------- LIST FORMATTING ----------
+\setlist[itemize]{
+    leftmargin=15pt,
+    itemsep=1pt,
+    topsep=1pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% ---------- CUSTOM COMMANDS ----------
+\newcommand{\resumeItem}[1]{
+    \item \small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \begin{tabularx}{\textwidth}{X r}
+        \textbf{#1} & \textbf{#2} \\
+        \textit{\small #3} & \textit{\small #4}
+    \end{tabularx}
+}
+
+\begin{document}
+
+% ==================================================
+% HEADER
+% ==================================================
+
+\begin{center}
+
+{\fontsize{29}{32}\selectfont
+\textbf{N}{\fontsize{21}{24}\selectfont EELA}
+\hspace{-2pt}
+\textbf{G}{\fontsize{21}{24}\selectfont ANESH}
+}\\[5pt]
+
+\small
+\faPhone\ \href{tel:+916303185611}{+91-6303185611}
+\quad
+\faEnvelope\ \href{mailto:neelaganeshd@gmail.com}
+{neelaganeshd@gmail.com}
+\quad
+\faLinkedin\ \href{https://linkedin.com/in/neelaganeshd/}
+{linkedin.com/in/neelaganeshd}
+\quad
+\faGithub\ \href{https://github.com/Neelaganes}
+{github.com/Neelaganes}
+
+\end{center}
+
+\vspace{-5pt}
+
+% ==================================================
+% CAREER OBJECTIVE
+% ==================================================
+
+\section{Career Objective}
+
+\small{
+Motivated and enthusiastic pre-final year Computer Science and Engineering
+student seeking an opportunity to apply my technical skills and grow in dynamic organization.
+Eager to learn new technologies, contribute effectively to team success and build a successful career and while delivering value to the organization.
+}
+
+% ==================================================
+% EDUCATION
+% ==================================================
+
+\section{Education}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Vignan's Institute of Information Technology} &
+\textbf{Visakhapatnam, India} \\
+
+\textit{\small Bachelor of Technology in Computer Science and Engineering} &
+\textit{\small 2025 -- 2028}
+\end{tabularx}
+
+\begin{itemize}
+\resumeItem{\textbf{CGPA:} 9.0/10}
+\end{itemize}
+
+% ==================================================
+% INTERNSHIP
+% ==================================================
+
+\section{Internship}
+
+\resumeSubheading
+{Hippo Cloud Technologies Pvt. Ltd.}
+{May 2024 -- Nov 2024}
+{Web Development Intern}
+{On-site}
+
+\begin{itemize}
+\resumeItem{Developed responsive and user-friendly web interfaces
+using HTML, CSS, JavaScript, and React.js.}
+
+\resumeItem{Built and integrated RESTful APIs using Node.js
+and Express.js to support full-stack application functionality.}
+
+\resumeItem{Worked with databases to implement data storage,
+retrieval, and CRUD operations for application features.}
+
+\resumeItem{Collaborated on debugging, testing, and optimizing
+application performance following structured development practices.}
+\end{itemize}
+
+% ==================================================
+% PROJECTS
+% ==================================================
+
+\section{Projects}
+
+% ---------- PROJECT 1 ----------
+\textbf{Forever Store} \hfill
+\textit{March 2026}
+
+\textit{\small Full-stack e-commerce web application}
+
+\begin{itemize}
+
+\resumeItem{Developed a full-stack e-commerce application using
+React.js, Node.js, and MongoDB to manage products, users,
+shopping carts, and customer orders.}
+
+\resumeItem{Integrated Cloudinary for product image uploads
+and cloud-based image management.}
+
+\resumeItem{Implemented REST APIs, admin product management,
+user authentication, and cash-on-delivery order processing.}
+
+\end{itemize}
+
+\small{
+\textbf{GitHub:}
+\href{https://github.com/Neelaganes/Forever-Store}
+{github.com/Neelaganes/Forever-Store}
+\quad
+\textbf{Live:}
+\href{https://forever-ecommerce-swart.vercel.app/}
+{forever-ecommerce-swart.vercel.app}
+}
+
+% Extra spacing between projects
+\vspace{8pt}
+
+% ---------- PROJECT 2 ----------
+\textbf{Novatech RAG Chatbot} \hfill
+\textit{November 2026}
+
+\textit{\small AI-powered retrieval-augmented generation chatbot}
+
+\begin{itemize}
+
+\resumeItem{Developed an AI-powered RAG chatbot using
+OpenAI GPT-OSS-120B to generate context-aware responses
+from retrieved knowledge sources.}
+
+\resumeItem{Implemented All-MiniLM-L6-v2 embeddings and
+ChromaDB for vector storage, semantic search, and
+relevant document retrieval.}
+
+\resumeItem{Built an interactive chat interface using
+Streamlit and containerized the application with Docker
+for deployment.}
+
+\end{itemize}
+
+\small{\textbf{GitHub:}
+\href{https://github.com/Neelaganes/RAG_CHATBOT_DEPLOY}
+{github.com/Neelaganes/RAG\_CHATBOT\_DEPLOY}}
+
+% ==================================================
+% TECHNICAL SKILLS
+% ==================================================
+
+\section{Technical Skills}
+
+\small{
+\begin{tabularx}{\textwidth}{l X}
+
+\textbf{Frontend:} &
+React.js, HTML5, CSS3, JavaScript (ES6+) \\[2pt]
+
+\textbf{Programming Languages:} &
+Python, Java (Intermediate) \\[2pt]
+
+\textbf{Databases:} &
+SQL, MongoDB, ChromaDB \\[2pt]
+
+\textbf{AI:} &
+LLMs, Prompt Engineering, Context Engineering, RAG \\[2pt]
+
+\textbf{Backend:} &
+Node.js, Express.js, REST APIs \\[2pt]
+
+\textbf{Core CS Fundamentals:} &
+Data Structures and Algorithms (DSA), Operating Systems, DBMS \\[2pt]
+
+\textbf{Tools and Platforms:} &
+Git, GitHub, VS Code, Cloudinary, Docker, Streamlit,
+AI-assisted and agentic IDEs
+
+\end{tabularx}
+}
+
+% ==================================================
+% CERTIFICATIONS & ACHIEVEMENTS
+% ==================================================
+
+\section{Certifications \& Achievements}
+
+\begin{itemize}
+
+\resumeItem{\textbf{Campus Leadership:}
+Web Development Lead at GDG on Campus VIIT (Present);
+Technical Lead at Student Spot (2025).}
+
+\resumeItem{\textbf{Cisco Networking Academy:}
+HTML Essentials, CSS Essentials, JavaScript Essentials 1 and 2.}
+
+\resumeItem{\textbf{GeeksforGeeks:}
+Computer Fundamentals and Full Stack Developer Bootcamp.}
+
+\resumeItem{\textbf{HackerRank:}
+Python (Basic) Certification.}
+
+\resumeItem{\textbf{Zscaler:}
+Networking for Cyber Professionals.}
+
+\end{itemize}
+
+% ==================================================
+% HOBBIES
+% ==================================================
+
+\section{Hobbies}
+
+\small{
+Exploring new technologies\\
+Travelling\\
+Running
+}
+
+\end{document}
