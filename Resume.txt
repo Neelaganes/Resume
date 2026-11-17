@@ -212,7 +212,7 @@ for deployment.}
 React.js, HTML5, CSS3, JavaScript (ES6+) \\[2pt]
 
 \textbf{Programming Languages:} &
-Python, Java (Intermediate) \\[2pt]
+Python, Java Script \\[2pt]
 
 \textbf{Databases:} &
 SQL, MongoDB, ChromaDB \\[2pt]
